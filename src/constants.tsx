@@ -1,0 +1,1 @@
+export const BACKGROUND_NEUTRAL='#D1D1D1';
