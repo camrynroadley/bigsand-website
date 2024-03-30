@@ -45,8 +45,8 @@ const Home = () => {
               <Heading>For the love</Heading>
               <Heading2>of the game.</Heading2>
               <Subheading>
-                Big Sand Volleyball Club has offered club volleyball, camps and
-                now leagues for over 15 years. Our goal is the same as always:
+                Big Sand Volleyball has offered club, camps and
+                leagues in Winnipeg for over 15 years. Our goal is the same as always:
                 to encourage a love for the game of volleyball.
               </Subheading>
             </HeadingWrapper>

@@ -66,7 +66,7 @@ const LearnMoreButton = styled.div`
 color: #930A0A;
 font-family: 'General Sans';
 font-size: 20px;
-font-weight: 600;
+font-weight: 500;
 width: 140px;
 display: flex;
 align-items: center;

@@ -38,7 +38,7 @@ const AdultGrassLeague = () => {
         <Grid xs={2}></Grid>
         <Grid xs={8}>
           <HeadingWrapper>
-            <Heading>Recreational</Heading>
+            <Heading>Adult Co-ed Recreational</Heading>
             <Heading2>Grass League</Heading2>
           </HeadingWrapper>
           <Box

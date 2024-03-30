@@ -8,7 +8,7 @@ const HeadingWrapper = styled.div`
 const Heading = styled.h1`
 color: #383A3C;
 font-family: 'General Sans';
-font-size: 100px;
+font-size: 74px;
 font-weight: 500;
 margin: 0;
 `;
@@ -16,7 +16,7 @@ margin: 0;
 const Heading2 = styled.h1`
 color: #383A3C;
 font-family: 'General Sans';
-font-size: 100px;
+font-size: 74px;
 font-weight: 500;
 margin-top: -15px;
 `;
