@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bigsand-website/static/css/main.c8367e6d.css",
+    "main.js": "/bigsand-website/static/js/main.ec0d19cd.js",
+    "static/js/453.03e3435d.chunk.js": "/bigsand-website/static/js/453.03e3435d.chunk.js",
+    "index.html": "/bigsand-website/index.html",
+    "main.c8367e6d.css.map": "/bigsand-website/static/css/main.c8367e6d.css.map",
+    "main.ec0d19cd.js.map": "/bigsand-website/static/js/main.ec0d19cd.js.map",
+    "453.03e3435d.chunk.js.map": "/bigsand-website/static/js/453.03e3435d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8367e6d.css",
+    "static/js/main.ec0d19cd.js"
+  ]
+}
