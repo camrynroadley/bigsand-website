@@ -50,7 +50,7 @@ const SectionHeading = styled.p`
 const Subheading = styled.p`
   color: #383a3c;
   font-family: "General Sans";
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   margin: 0;
 `;
@@ -58,7 +58,7 @@ const Subheading = styled.p`
 const InformationMessage = styled.p`
   color: #383a3c;
   font-family: "General Sans";
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   margin: 0;
   padding-bottom: 40px;
@@ -107,6 +107,10 @@ const CoachesCardsWrapper = styled.div`
   padding-right: 16%;
   padding-top: 50px;
   padding-bottom: 50px;
+  @media (max-width: 80em) {
+    padding-left: 10%;
+    padding-right: 10%;
+    }
 `;
 
 export {

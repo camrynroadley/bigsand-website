@@ -2,13 +2,12 @@ import styled from "styled-components";
 
 const StyledUl = styled.ul`
   list-style-type: none;
-  width: 100%;
 `;
 
 const StyledHeading = styled.p`
   color: white;
   font-family: "General Sans";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1rem;
 `;
 

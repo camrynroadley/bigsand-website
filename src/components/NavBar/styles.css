@@ -27,3 +27,43 @@
   display: block;
 }
 
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #383a3c;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  z-index: 100;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #383a3c;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  color: #383a3c;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: 383a3c;
+}
+
