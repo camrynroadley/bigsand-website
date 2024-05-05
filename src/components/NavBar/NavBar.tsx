@@ -30,7 +30,7 @@ const NavBar = () => {
   return (
     <>
       {!isSmallScreen ? (
-        <Container maxWidth="xl" sx={{ padding: "0px !important" }}>
+        <Container maxWidth={false} sx={{ padding: "0px !important" }}>
           <StyledUl>
             <>
               <a

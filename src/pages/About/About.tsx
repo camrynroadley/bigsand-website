@@ -1,3 +1,4 @@
+import { useLayoutEffect } from 'react';
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import Grid from "@mui/material/Unstable_Grid2";
@@ -28,6 +29,10 @@ const About = () => {
   const coaches: Coach[] = getCoachesData();
   const sortedCoaches: Coach[] = coaches.sort((coach1, coach2) => {
     return coach1.ranking - coach2.ranking;
+  });
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
   });
 
   const onRegistrationFormClick = () => {
