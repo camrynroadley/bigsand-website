@@ -48,12 +48,12 @@ const NavBar = () => {
                   PROGRAMS
                 </StyledLiPrograms>
                 <div className="dropdown-content">
-                  <Link to="/adult-grass-league">
+                  {/* <Link to="/adult-grass-league">
                     <a href="#">Adult Women's Grass League</a>
                   </Link>
                   <Link to="/girls-grass-league">
                     <a href="#">Girls Age 12-18 Grass League</a>
-                  </Link>
+                  </Link> */}
                   <Link to="/girls-summer-camp">
                     <a href="#">Girls Age 11-15 Summer Camps</a>
                   </Link>
@@ -88,12 +88,12 @@ const NavBar = () => {
               <Link to="/contact">
                 <StyledLi>CONTACT</StyledLi>
               </Link>
-              <Link to="/adult-grass-league">
+              {/* <Link to="/adult-grass-league">
                 <StyledLi>Adult Women's Grass League</StyledLi>
               </Link>
               <Link to="/girls-grass-league">
                 <StyledLi>Girls Age 12-18 Grass League</StyledLi>
-              </Link>
+              </Link> */}
               <Link to="/girls-summer-camp">
                 <StyledLi>Girls Age 11-15 Summer Camps</StyledLi>
               </Link>

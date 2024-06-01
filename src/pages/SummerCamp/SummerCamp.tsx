@@ -109,7 +109,7 @@ const SummerCamp = () => {
             <InformationMessage>
               Running three sessions. You can sign up for as many as you'd like:
               <br/>
-            Session 1: August 12-16
+            FULL <s>Session 1: August 12-16</s>
             <br/>
             Session 2: August 19-23
             <br/>
@@ -129,7 +129,7 @@ const SummerCamp = () => {
               M-F 3:00 - 5:00pm
             </InformationMessage>
             <Subheading>COST</Subheading>
-            <InformationMessage>Cost $200/session (If you sign up for 2 sessions cost is $350, all 3 sessions cost is $450)</InformationMessage>
+            <InformationMessage>Cost $200/session (If you sign up for 2 sessions cost is $350)</InformationMessage>
             <Subheading>HOW</Subheading>
             <InformationMessage>
               Please have one team member fill out the form at the top of the
