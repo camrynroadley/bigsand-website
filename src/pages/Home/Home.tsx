@@ -10,7 +10,7 @@ import Chip from "@mui/material/Chip";
 import { Alert, Button } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import { BACKGROUND_NEUTRAL } from "../../constants";
+import { COLORS } from "../../constants";
 import "./styles.css";
 import {
   BigSandHeadingWrapper,
@@ -152,7 +152,7 @@ const Home = () => {
     return (
       <Box
         sx={{
-          bgcolor: BACKGROUND_NEUTRAL,
+          bgcolor: COLORS.BACKGROUND_NEUTRAL,
           paddingTop: "80px",
           paddingBottom: "80px",
           margin: 0,

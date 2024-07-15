@@ -10,7 +10,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
-import { BACKGROUND_NEUTRAL } from "../../constants";
+import { COLORS } from "../../constants";
 import "./styles.css";
 import {
   HeadingWrapper,
@@ -106,7 +106,7 @@ const GirlsGrassLeague = () => {
 
   const AboutSection = () => {
     return (
-      <Grid container sx={{ background: BACKGROUND_NEUTRAL }}>
+      <Grid container sx={{ background: COLORS.BACKGROUND_NEUTRAL }}>
         <Grid xs={1} md={2}></Grid>
         <Grid xs={10} md={8}>
           <InfoWrapper>

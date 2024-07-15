@@ -22,7 +22,7 @@ import {
   InfoWrapper,
   InformationMessage,
 } from "./styles";
-import { BACKGROUND_NEUTRAL } from "../../constants";
+import { COLORS } from "../../constants";
 
 const SummerCamp = () => {
   const isSmallScreen: boolean = useMediaQuery("(max-width:600px)");
@@ -100,7 +100,7 @@ const SummerCamp = () => {
 
   const AboutSection = () => {
     return (
-      <Grid container sx={{ background: BACKGROUND_NEUTRAL }}>
+      <Grid container sx={{ background: COLORS.BACKGROUND_NEUTRAL }}>
         <Grid xs={1} md={2}></Grid>
         <Grid xs={10} md={8}>
           <InfoWrapper>
