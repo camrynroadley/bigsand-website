@@ -4,15 +4,15 @@ import Footer from "../../components/Footer/Footer";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import "./styles.css";
 import Header from "./components/Header";
-import About from "./components/About";
 import FAQ from "./components/FAQ";
+import About from "../About/About";
 
-const SummerCamp = () => {
+const GirlsGrassLeague = () => {
   const isSmallScreen: boolean = useMediaQuery("(max-width:600px)");
 
   useLayoutEffect(() => {
-    window.scrollTo(0, 0)
-});
+    window.scrollTo(0, 0);
+  });
 
   const onRegistrationFormClick = () => {
     console.log("On Registration Form Click");
@@ -23,10 +23,10 @@ const SummerCamp = () => {
       <NavBar />
       <Header isSmallScreen={isSmallScreen} onRegistrationFormClick={onRegistrationFormClick} />
       <About />
-      <FAQ />
+      {/* <FAQ /> */}
       <Footer />
     </>
   );
 };
 
-export default SummerCamp;
+export default GirlsGrassLeague;

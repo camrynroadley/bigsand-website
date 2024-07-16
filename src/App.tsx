@@ -4,8 +4,8 @@ import './App.css';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
-import AdultGrassLeague from './pages/GrassLeague/AdultGrassLeague';
-import GirlsGrassLeague from './pages/GrassLeague/GirlsGrassLeague';
+import AdultGrassLeague from './pages/AdultGrassLeague/AdultGrassLeague';
+import GirlsGrassLeague from './pages/GirlsGrassLeague/GirlsGrassLeague';
 import SummerCamp from './pages/SummerCamp/SummerCamp';
 
 function App() {
