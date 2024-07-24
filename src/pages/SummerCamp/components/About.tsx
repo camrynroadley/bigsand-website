@@ -23,7 +23,7 @@ const About = () => {
             <br />
             Session 2: August 19-23
             <br />
-            Session 3: August 26-30
+            FULL <s>Session 3: August 26-30</s>
           </InformationMessage>
           <Subheading>WHO</Subheading>
           <InformationMessage>
