@@ -39,11 +39,11 @@ const Header = ({ isSmallScreen, onRegistrationFormClick }: HeaderProps) => {
           }}
         >
           <RegistrationBoxHeading>
-            🚩 Registration now open
+            🚩 Summer camps are now full
           </RegistrationBoxHeading>
           <RegistrationBoxMessage>
-            Registration open until beginning of August 2024. Cap of 24 girls
-            per session.
+            Thank you for your interest. Please use the below form to register
+            for the Summer Camp waitlist:
           </RegistrationBoxMessage>
           <a
             target="_blank"
@@ -68,9 +68,12 @@ const Header = ({ isSmallScreen, onRegistrationFormClick }: HeaderProps) => {
                 },
               }}
             >
-              Registration Form
+              Waitlist Form
             </Button>
           </a>
+          <RegistrationBoxMessage>
+              Fall Camps will be posted in the coming weeks
+            </RegistrationBoxMessage>
         </Box>
       </Grid>
       <Grid xs={1} md={2}></Grid>

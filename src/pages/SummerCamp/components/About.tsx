@@ -21,7 +21,7 @@ const About = () => {
             <br />
             FULL <s>Session 1: August 12-16</s>
             <br />
-            Session 2: August 19-23
+            FULL <s>Session 2: August 19-23</s>
             <br />
             FULL <s>Session 3: August 26-30</s>
           </InformationMessage>
@@ -43,9 +43,8 @@ const About = () => {
           </InformationMessage>
           <Subheading>HOW</Subheading>
           <InformationMessage>
-            Please have one team member fill out the form at the top of the
-            page. Payment can be made by e-transfer, cash or cheque by end of
-            August.
+            Payment can be made by e-transfer, cash or cheque by end of
+            August
           </InformationMessage>
         </InfoWrapper>
       </Grid>
